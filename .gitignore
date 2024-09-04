@@ -15,7 +15,7 @@
 
 # prisma migrations
 prisma/migrations/
-seed*
+prisma/*.db
 
 # production
 /build
