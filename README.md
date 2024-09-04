@@ -5,6 +5,8 @@ A test repo for this issue in Next.js docs: https://github.com/vercel/next.js/is
 pnpm install
 pnpm prisma db push
 pnpm seed
+pnpm build && pnpm start
+# then visit http://localhost:3000/courses
 ```
 
 [Fetching data with an ORM or DB](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#fetching-data-on-the-server-with-an-orm-or-database) 
