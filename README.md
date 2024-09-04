@@ -1,5 +1,12 @@
 A test repo for this issue in Next.js docs: https://github.com/vercel/next.js/issues/69694
 
+# How to run
+```bash
+pnpm install
+pnpm prisma db push
+pnpm seed
+```
+
 [Fetching data with an ORM or DB](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#fetching-data-on-the-server-with-an-orm-or-database) 
 
 > Highlight: `This component will always fetch and display a dynamic, up-to-date list of blog posts.`

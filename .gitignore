@@ -59,6 +59,3 @@ backup/*
 
 # bruno files
 bruno_files/
-
-#prisma 
-prisma/*

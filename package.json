@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "seed": "ts-node prisma/seed.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -15,6 +16,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
     "@types/node": "^20.16.4",
     "@types/react": "^18",
     "@types/react-dom": "^18",
